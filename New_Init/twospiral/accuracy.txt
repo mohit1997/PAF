@@ -1,0 +1,7 @@
+val_acc, train_acc
+batch_norm = 73.5, 63.48
+relu = 77.2, 77.5
+GC = 100, 99.8
+max = 56.25, 70.52
+emfn = 98.84, 99.02
+
