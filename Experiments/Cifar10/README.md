@@ -1,6 +1,7 @@
 # ResNet in TensorFlow
 
-Use these files in the official tensorflow resnet code [here](https://github.com/tensorflow/models/tree/r1.10.0/official/resnet)
+Use these files in the official tensorflow resnet code [here](https://github.com/tensorflow/models/tree/r1.10.0/official/resnet).
+
 Note: The code is writtten only for Tensorflow 1.x. Please clone the appropriate repositiory taking care of versioning.
 
 ## Instructions
