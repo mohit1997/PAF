@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from sklearn.preprocessing import OneHotEncoder
-from RAMO_fast import RAMO
-from approximate_taylor_fast import activation_function_taylor
 from taylor_batch_norm import taylor
 import sys
 import os
@@ -51,8 +49,6 @@ def select_model(is_train):
         return hidden_RAMO(is_train)
     elif t == 'RELU':
         return relu(is_train)
-    elif t =='TAYLOR':
-        return hidden_taylor(is_train)
     else:
         raise Exception('Unknown type. ' + usage)
 
