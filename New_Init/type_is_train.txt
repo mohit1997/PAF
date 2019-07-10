@@ -1,7 +1,0 @@
-if type(is_train) is not bool:
-                Xin = tf.cond(is_train, lambda: update_op(X, pop_mean, pop_var, batch_mean, batch_var, decay), lambda: tf.nn.batch_normalization(X, pop_mean, pop_var, offset=None, scale=None, variance_epsilon=1e-8))
-            else:
-                if is_train:
-                    Xin = update_op(X, pop_mean, pop_var, batch_mean, batch_var, decay)
-                else:
-                    Xin = tf.nn.batch_normalization(X, pop_mean, pop_var, offset=None, scale=None, variance_epsilon=1e-8)
