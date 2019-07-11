@@ -3,7 +3,7 @@
 The folder contains the experiments performed (reproducible) in the corresponding paper
 
 ## Experiments
-1. [Cifar10](./Cifar10) for image classification.
+1. [Cifar 10](./Cifar10) for image classification.
 2. [MNIST](./MNIST) for image classification.
 3. [FMNIST](./FMNIST) for image classification.
 4. [Two Spiral Problem](./twospiral) for classifying points from two intertwined spirals.
