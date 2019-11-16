@@ -1,4 +1,4 @@
-# Learnable-Activation-Function
+# Learnable Activation Function
 
 The folder contains the experiments performed (reproducible) in the corresponding paper
 
