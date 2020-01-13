@@ -1,7 +1,6 @@
-# Learnable Activation Function
-### A new paradigm for understanding Neural Networks
+# Effectiveness of Neural Networks with polynomialactivations
 
-We propose "Self-Learnable Activation Functions'' (SLAF), which are learned during training and are capable of approximating most of the existing activation functions. SLAF is given as a weighted sum of pre-defined basis elements which can serve for a good approximation of the optimal activation function.
+We propose "Polynomial Activation Functions'' (PAF), which are learned during training and are capable of approximating most of the existing activation functions. PAF is given as a weighted sum of 'normalized monomials' which serve for a good approximation of the optimal activation function.
 
 ### Arxiv: [https://arxiv.org/abs/1906.09529](https://arxiv.org/abs/1906.09529)
 
