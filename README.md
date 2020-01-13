@@ -1,4 +1,4 @@
-# Effectiveness of Neural Networks with polynomialactivations
+# Effectiveness of Neural Networks with polynomial activations
 
 We propose "Polynomial Activation Functions'' (PAF), which are learned during training and are capable of approximating most of the existing activation functions. PAF is given as a weighted sum of 'normalized monomials' which serve for a good approximation of the optimal activation function.
 
